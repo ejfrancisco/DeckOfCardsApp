@@ -1,0 +1,243 @@
+
+$top: 100px;
+$left: 0px;
+
+
+.outerWrap {
+  position: relative;
+  height: 100%;
+  max-width: 1140px;
+  background-color: green;
+  transition: all 1s;
+}
+
+.card {
+  position: absolute;
+  height: 70px;
+  width: 52px;
+  top: $top;
+  border-radius: 5px;
+  background-color: #fafafa;
+  border: hidden;
+  border-width: 0px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+  transition: all .3s;
+
+  &:hover {
+    z-index: 53;
+    top: 90px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  &.ClubsA {
+    background-image: url("../../assets/club_a.png");
+  }
+
+  &.Clubs2 {
+    background-image: url("../../assets/club_2.png");
+  }
+
+  &.Clubs3 {
+    background-image: url("../../assets/club_3.png");
+  }
+
+  &.Clubs4 {
+    background-image: url("../../assets/club_4.png");
+  }
+
+  &.Clubs5 {
+    background-image: url("../../assets/club_5.png")
+  }
+
+  &.Clubs6 {
+    background-image: url("../../assets/club_6.png")
+  }
+
+  &.Clubs7 {
+    background-image: url("../../assets/club_7.png")
+  }
+
+  &.Clubs8 {
+    background-image: url("../../assets/club_8.png")
+  }
+
+
+  &.Clubs9 {
+    background-image: url("../../assets/club_9.png")
+  }
+
+  &.Clubs10 {
+    background-image: url("../../assets/club_10.png")
+  }
+
+  &.ClubsJ {
+    background-image: url("../../assets/club_v.png")
+  }
+
+  &.ClubsQ {
+    background-image: url("../../assets/club_d.png")
+  }
+
+  &.ClubsK {
+    background-image: url("../../assets/club_r.png")
+  }
+
+
+  &.SpadesA {
+    background-image: url("../../assets/spade_a.png");
+  }
+
+  &.Spades2 {
+    background-image: url("../../assets/spade_2.png");
+  }
+
+  &.Spades3 {
+    background-image: url("../../assets/spade_3.png");
+  }
+
+  &.Spades4 {
+    background-image: url("../../assets/spade_4.png");
+  }
+
+  &.Spades5 {
+    background-image: url("../../assets/spade_5.png")
+  }
+
+  &.Spades6 {
+    background-image: url("../../assets/spade_6.png")
+  }
+
+  &.Spades7 {
+    background-image: url("../../assets/spade_7.png")
+  }
+
+  &.Spades8 {
+    background-image: url("../../assets/spade_8.png")
+  }
+
+  &.Spades9 {
+    background-image: url("../../assets/spade_9.png")
+  }
+
+  &.Spades10 {
+    background-image: url("../../assets/spade_10.png")
+  }
+
+  &.SpadesJ {
+    background-image: url("../../assets/spade_v.png")
+  }
+
+  &.SpadesQ {
+    background-image: url("../../assets/spade_d.png")
+  }
+
+  &.SpadesK {
+    background-image: url("../../assets/spade_r.png")
+  }
+
+  &.HeartsA {
+    background-image: url("../../assets/heart_a.png");
+  }
+
+  &.Hearts2 {
+    background-image: url("../../assets/heart_2.png");
+  }
+
+  &.Hearts3 {
+    background-image: url("../../assets/heart_3.png");
+  }
+
+  &.Hearts4 {
+    background-image: url("../../assets/heart_4.png");
+  }
+
+  &.Hearts5 {
+    background-image: url("../../assets/heart_5.png")
+  }
+
+  &.Hearts6 {
+    background-image: url("../../assets/heart_6.png")
+  }
+
+  &.Hearts7 {
+    background-image: url("../../assets/heart_7.png")
+  }
+
+  &.Hearts8 {
+    background-image: url("../../assets/heart_8.png")
+  }
+
+  &.Hearts9 {
+    background-image: url("../../assets/heart_9.png")
+  }
+
+  &.Hearts10 {
+    background-image: url("../../assets/heart_10.png")
+  }
+
+  &.HeartsJ {
+    background-image: url("../../assets/heart_v.png")
+  }
+
+  &.HeartsQ {
+    background-image: url("../../assets/heart_d.png")
+  }
+
+  &.HeartsK {
+    background-image: url("../../assets/heart_r.png")
+  }
+
+  &.DiamondsA {
+    background-image: url("../../assets/diamond_a.png");
+  }
+
+  &.Diamonds2 {
+    background-image: url("../../assets/diamond_2.png");
+  }
+
+  &.Diamonds3 {
+    background-image: url("../../assets/diamond_3.png");
+  }
+
+  &.Diamonds4 {
+    background-image: url("../../assets/diamond_4.png");
+  }
+
+  &.Diamonds5 {
+    background-image: url("../../assets/diamond_5.png")
+  }
+
+  &.Diamonds6 {
+    background-image: url("../../assets/diamond_6.png")
+  }
+
+  &.Diamonds7 {
+    background-image: url("../../assets/diamond_7.png")
+  }
+
+  &.Diamonds8 {
+    background-image: url("../../assets/diamond_8.png")
+  }
+
+  &.Diamonds9 {
+    background-image: url("../../assets/diamond_9.png")
+  }
+
+  &.Diamonds10 {
+    background-image: url("../../assets/diamond_10.png")
+  }
+
+  &.DiamondsJ {
+    background-image: url("../../assets/diamond_v.png")
+  }
+
+  &.DiamondsQ {
+    background-image: url("../../assets/diamond_d.png")
+  }
+
+  &.DiamondsK {
+    background-image: url("../../assets/diamond_r.png")
+  }
+}

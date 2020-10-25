@@ -1,0 +1,10 @@
+
+<button class="btn btn-success btn-sm" (click)="shuffleDeck(divDeck, 'false');">Shuffle</button>&nbsp;
+<button class="btn btn-primary btn-sm" (click)="shuffleDeck(divDeck, 'true');">Reset</button>
+
+<div id="deck" class="outerWrap" #divDeck style="background-color:green">
+  <ng-container *ngFor="let c of deckCard$ | async; let i = index">
+    <div class="card {{c.suit + c.rank}}" [style.left.px]="13 * (i+1)"></div>
+  </ng-container>
+</div>
+
